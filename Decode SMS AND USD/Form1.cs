@@ -20,7 +20,7 @@ namespace Decode_SMS_AND_USD
                     var dd = txtSMS.Text.Split(splitor, StringSplitOptions.RemoveEmptyEntries);
                     foreach (var item in dd)
                     {
-                        if (item.Contains(","))
+                        if (item.Contains(",") && item.Contains(":"))
                         {
                             res += decoce(item);
                         }
@@ -54,7 +54,12 @@ namespace Decode_SMS_AND_USD
         public  string decoce(string str)
         {
             var strHexSplt = str.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+            strHexSplt = strHexSplt.Where(x => x.Length > 5).ToArray();//remove OK,Nok,:,=,...
             var strHex = strHexSplt[strHexSplt.Length - 1]; //msg body
+            if (strHex.Contains("\n\r")|| strHex.Contains("\r\n"))
+            {
+                strHex = strHex.Replace("\r\n", " ").Split(" ", StringSplitOptions.RemoveEmptyEntries)[1];
+            }
             int nNumberChars = strHex.Length / 2;
             byte[] aBytes = new byte[nNumberChars];
             using (var sr = new StringReader(strHex))
@@ -85,6 +90,11 @@ namespace Decode_SMS_AND_USD
             }
             else
                 return Encoding.Default.GetString(aBytes, 0, aBytes.Length);
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            lbxRes.Items.Clear();
         }
     }
 }

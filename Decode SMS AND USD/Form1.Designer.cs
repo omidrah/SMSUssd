@@ -40,6 +40,7 @@
             this.rbAscii = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnClear = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -79,6 +80,7 @@
             this.lbxRes.ItemHeight = 15;
             this.lbxRes.Location = new System.Drawing.Point(80, 333);
             this.lbxRes.Name = "lbxRes";
+            this.lbxRes.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lbxRes.Size = new System.Drawing.Size(713, 139);
             this.lbxRes.TabIndex = 4;
             // 
@@ -112,6 +114,7 @@
             this.rbUnicode.Name = "rbUnicode";
             this.rbUnicode.Size = new System.Drawing.Size(69, 19);
             this.rbUnicode.TabIndex = 9;
+            this.rbUnicode.TabStop = true;
             this.rbUnicode.Text = "Unicode";
             this.rbUnicode.UseVisualStyleBackColor = true;
             // 
@@ -169,11 +172,22 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Text Unicode ";
             // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(713, 304);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.TabIndex = 15;
+            this.btnClear.Text = "Clear List";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1058, 484);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lbxRes);
@@ -205,5 +219,6 @@
         private RadioButton rbAscii;
         private GroupBox groupBox1;
         private GroupBox groupBox2;
+        private Button btnClear;
     }
 }
