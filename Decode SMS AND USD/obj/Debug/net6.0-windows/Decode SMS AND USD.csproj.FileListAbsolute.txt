@@ -1,0 +1,17 @@
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\bin\Debug\net6.0-windows\Decode SMS AND USD.exe
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\bin\Debug\net6.0-windows\Decode SMS AND USD.deps.json
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\bin\Debug\net6.0-windows\Decode SMS AND USD.runtimeconfig.json
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\bin\Debug\net6.0-windows\Decode SMS AND USD.dll
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\bin\Debug\net6.0-windows\Decode SMS AND USD.pdb
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\Decode SMS AND USD.csproj.AssemblyReference.cache
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\Decode_SMS_AND_USD.Form1.resources
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\Decode SMS AND USD.csproj.GenerateResource.cache
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\Decode SMS AND USD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\Decode SMS AND USD.AssemblyInfoInputs.cache
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\Decode SMS AND USD.AssemblyInfo.cs
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\Decode SMS AND USD.csproj.CoreCompileInputs.cache
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\Decode SMS AND USD.dll
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\refint\Decode SMS AND USD.dll
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\Decode SMS AND USD.pdb
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\Decode SMS AND USD.genruntimeconfig.cache
+C:\Users\rahimi.KCRNT\source\repos\Decode SMS AND USD\Decode SMS AND USD\obj\Debug\net6.0-windows\ref\Decode SMS AND USD.dll
